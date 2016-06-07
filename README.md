@@ -10,29 +10,43 @@ Notable features:
 
   - Shadows, Relfections and Refractions
   - Schlick's approximation
+  - Supersampling and stochastic anti-aliasing 
   - Surface Area Heuristic KD-Tree
   - Diffuse, Specular and Bump Mapping
+  - .OBJ model support
   - GPU Parallel Processing using CUDA
 
-### Features
+ 
+### Controls
 
-#### Shadows
+Camera controls
+  - W - forward
+  - S - backward
+  - A - left
+  - D - right
 
-Shadows OFF
-![alt text](https://raw.githubusercontent.com/jamesrogers93/real-time-ray-tracer/master/figures/no-shadows.png)
+Effects toggle (numpad)
+  - 1 - shadows
+  - 2 - reflections
+  - 3 - refractions
+  - 4 - no anti-aliasing
+  - 5 - supersampling
+  - 6 - stochastic sampling
 
-Shadows ON
-![alt text](https://raw.githubusercontent.com/jamesrogers93/real-time-ray-tracer/master/figures/shadows.png)
+### Scene Files
 
-#### Reflections
+Scene files can be loaded in by specifying the file name in raytracer/scene_files/scene_layout/scene.txt
 
-Reflections OFF
-![alt text](https://raw.githubusercontent.com/jamesrogers93/real-time-ray-tracer/master/figures/reflections-off.png)
+A guide to the formatting of the scene files can be found in raytracer/scene_files/scene_layout/guide.txt
 
-Reflections ON
-![alt text](https://raw.githubusercontent.com/jamesrogers93/real-time-ray-tracer/master/figures/reflections-on.png)
+### Installation
 
-#### Refractions
+This project requires Visual C++ Redistributable for Visual Studio 2015, CUDA 7.5 and OpenGL 3.5 support:
 
-![alt text](https://raw.githubusercontent.com/jamesrogers93/real-time-ray-tracer/master/figures/refractions-on.png)
+Download links:
 
+Visual C++ Redistributable for Visual Studio 2015
+https://www.microsoft.com/en-gb/download/details.aspx?id=48145
+
+CUDA 7.5
+https://developer.nvidia.com/cuda-downloads
