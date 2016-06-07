@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{76a45eb1-a027-422b-8460-d1b3280c5824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Tools">
+      <UniqueIdentifier>{70180837-1e12-4d05-8bfe-b11b480aebec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{36f23819-dc9e-4b62-af31-143c9ab42a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{0c07b92a-b042-4ce6-97f8-8267cdfdfc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Ray Tracer">
+      <UniqueIdentifier>{670d2a62-55a3-4aca-a98c-83dae80dd4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Ray Tracer">
+      <UniqueIdentifier>{86e04765-2c57-4e75-a79e-d024ca662bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\View">
+      <UniqueIdentifier>{6b14b7d3-3087-4a5e-ae3e-0cbb2f5ec76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\View">
+      <UniqueIdentifier>{1e4e506d-8c11-44a6-867a-e9b2c72164e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Ray Tracer\Collision">
+      <UniqueIdentifier>{08dcd1bf-fa9b-4bd3-bac7-aefa0e6a5362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Ray Tracer\Collision">
+      <UniqueIdentifier>{83125695-e743-4ab7-b0da-bd01fb488442}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Triangle.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Sphere.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </CudaCompile>
+    <CudaCompile Include="RayTrace.cu">
+      <Filter>Source\Ray Tracer</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Light.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Camera.cu">
+      <Filter>Source\Ray Tracer</Filter>
+    </CudaCompile>
+    <CudaCompile Include="KDNode.cpp">
+      <Filter>Source\Ray Tracer\Collision</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Intersection.cu">
+      <Filter>Source\Ray Tracer\Collision</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Interpolate.cu">
+      <Filter>Source\Tools</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cu">
+      <Filter>Source\Ray Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source\Ray Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source\View</Filter>
+    </ClCompile>
+    <ClCompile Include="KDVoxel.cpp">
+      <Filter>Source\Ray Tracer\Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debug.h">
+      <Filter>Headers\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTrace.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Headers\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Headers\View</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTree.h">
+      <Filter>Headers\Ray Tracer\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInfo.h">
+      <Filter>Headers\Ray Tracer\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Headers\Ray Tracer\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolate.h">
+      <Filter>Headers\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicSettings.h">
+      <Filter>Headers\Ray Tracer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

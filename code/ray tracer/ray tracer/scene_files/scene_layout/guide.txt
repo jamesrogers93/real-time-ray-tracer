@@ -1,0 +1,5 @@
+Scene Layout Guide
+
+m - Model(String objFilePath, vec3 origin, vec3 rotation, float reflectiveness, float transparancy, float refractiveIndex, vec3 diffuse)
+s - Sphere(vec3 origin, float radius, float reflectiveness, float transparancy, float refractiveIndex, vec3 diffuse)
+l - Light(vec3 origin, vec3 diffuse, float linearAttenuation, float quadraticAttenuation)
