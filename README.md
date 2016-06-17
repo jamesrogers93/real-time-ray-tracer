@@ -8,7 +8,7 @@ This repository includes all the code and a 53 page technical report.
 
 Notable features:
 
-  - Shadows, Relfections and Refractions
+  - Shadows, Reflections and Refractions
   - Schlick's approximation
   - Supersampling and stochastic anti-aliasing 
   - Surface Area Heuristic KD-Tree
