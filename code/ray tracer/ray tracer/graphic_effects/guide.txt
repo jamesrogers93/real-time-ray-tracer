@@ -1,8 +1,0 @@
-Graphic Settings Guide
-
-r - Resolution(int width, int height)
-a - rayTraceDepth(int depth)
-b - shadows(bool onOff)
-c - reflections(bool onOff)
-d - refractions(bool onOff)
-e - antiAliasing(int setting[none 0, supersample 1, stophastic 2])
